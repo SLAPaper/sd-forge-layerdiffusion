@@ -277,7 +277,7 @@ class TransparentVAEDecoder:
                         basename="",
                         seed=p.seeds[i],
                         prompt=p.prompts[i],
-                        extension=getattr(opts, 'samples_format', 'png'),
+                        extension='png',
                         info=infotext,
                         p=p,
                         suffix="-transparent"
